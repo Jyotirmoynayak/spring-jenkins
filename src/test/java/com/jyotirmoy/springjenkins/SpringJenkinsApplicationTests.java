@@ -1,0 +1,19 @@
+package com.jyotirmoy.springjenkins;
+
+import org.junit.jupiter.api.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.util.AssertionErrors;
+
+@SpringBootTest
+class SpringJenkinsApplicationTests {
+
+	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
+
+	@Test
+	void contextLoads() {
+		logger.info("SpringJenkinsApplicationTests test ");
+	}
+
+}
